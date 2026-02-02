@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # HackathonONE (Oracle + Alura)
 
 # 📊 SentimentoAPI - Análise de Sentimento com IA e Microserviços
@@ -637,4 +636,3 @@ Para apresentar isso no Hackathon, siga esta ordem exata:
 =======
 # hackathon_ONE
 Hackathon One 2025-26 (Oracle + Alura)
->>>>>>> 56c105e46db9bb4b5a79bb5c97091fe38ea06e03
