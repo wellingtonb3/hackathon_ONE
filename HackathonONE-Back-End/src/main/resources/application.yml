@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: sentiment
+
+  profiles:
+    active: dev
+
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+sentiment:
+  python:
+    url: ${PYTHON_API_URL:http://python_service:5000/predict}
+
+server:
+  port: 8080
+
+

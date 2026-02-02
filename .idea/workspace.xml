@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12b943d8-7979-40f1-9c29-429dd383d2c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/dtos/AnalisePesoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/dtos/CommentEntityDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/dtos/SentimentPredictionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/entities/AnalisePeso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackathonONE-Back-End/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HackathonONE-Back-End/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/controllers/SentimentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/controllers/SentimentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/dtos/StatsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/dtos/StatsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/entities/CommentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/entities/CommentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/entities/SentimentPrediction.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/entities/SentimentPrediction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/repositories/SentimentPredictionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/repositories/SentimentPredictionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/services/SentimentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackathonONE-Back-End/src/main/java/com/sentimentapi/services/SentimentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackathonONE-Back-End/src/test/java/com/sentimentapi/services/SentimentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackathonONE-Back-End/src/test/java/com/sentimentapi/services/SentimentServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="path-3" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="36iubLXRsOuChZrBUmtVPina7Yv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DTO_SentimentApplication.executor": "Run",
+    "JUnit.SentimentControllerTestIntegrcao.deveRetonarPorcentagenCorretas.executor": "Run",
+    "JUnit.SentimentServiceTest.deveAtualizarComentarioEPredicao.executor": "Run",
+    "JUnit.SentimentServiceTest.deveRetornarAlgoQuandoFalhar.executor": "Run",
+    "JUnit.SentimentServiceTest.deveVirPredicaoNaResposta.executor": "Run",
+    "JUnit.SentimentServiceTest.deverComputarAPorcentaemCorreta.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "path-10",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Estudo Programacao/ALURA/ONE/hackathonOneAlura/HackathonONE-Back-End",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sentimentapi.entities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Estudo Programacao\ALURA\ONE\hackathonOneAlura\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Estudo Programacao\ALURA\ONE\hackathonOneAlura\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sentimentapi.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SentimentControllerTestIntegrcao.deveRetonarPorcentagenCorretas">
+    <configuration name="SentimentControllerTestIntegrcao.deveRetonarPorcentagenCorretas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sentimentapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sentimentapi.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sentimentapi.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.sentimentapi.controllers.SentimentControllerTestIntegrcao" />
+      <option name="METHOD_NAME" value="deveRetonarPorcentagenCorretas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentimentServiceTest.deveAtualizarComentarioEPredicao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sentimentapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sentimentapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sentimentapi.service" />
+      <option name="MAIN_CLASS_NAME" value="com.sentimentapi.service.SentimentServiceTest" />
+      <option name="METHOD_NAME" value="deveAtualizarComentarioEPredicao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentimentServiceTest.deveRetornarAlgoQuandoFalhar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sentimentapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sentimentapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sentimentapi.service" />
+      <option name="MAIN_CLASS_NAME" value="com.sentimentapi.service.SentimentServiceTest" />
+      <option name="METHOD_NAME" value="deveRetornarAlgoQuandoFalhar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentimentServiceTest.deveVirPredicaoNaResposta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sentimentapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sentimentapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sentimentapi.service" />
+      <option name="MAIN_CLASS_NAME" value="com.sentimentapi.service.SentimentServiceTest" />
+      <option name="METHOD_NAME" value="deveVirPredicaoNaResposta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentimentServiceTest.deverComputarAPorcentaemCorreta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sentimentapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sentimentapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sentimentapi.service" />
+      <option name="MAIN_CLASS_NAME" value="com.sentimentapi.service.SentimentServiceTest" />
+      <option name="METHOD_NAME" value="deverComputarAPorcentaemCorreta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="hackathonOneAlura" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="hackathonOneAlura" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SentimentControllerTestIntegrcao.deveRetonarPorcentagenCorretas" />
+        <item itemvalue="JUnit.SentimentServiceTest.deveAtualizarComentarioEPredicao" />
+        <item itemvalue="JUnit.SentimentServiceTest.deveRetornarAlgoQuandoFalhar" />
+        <item itemvalue="JUnit.SentimentServiceTest.deveVirPredicaoNaResposta" />
+        <item itemvalue="JUnit.SentimentServiceTest.deverComputarAPorcentaemCorreta" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12b943d8-7979-40f1-9c29-429dd383d2c4" name="Changes" comment="" />
+      <created>1765501784024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765501784024</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

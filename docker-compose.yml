@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  # Banco de Dados
+  db:
+    image: postgres:15
+    container_name: postgres_db
+    networks:
+      - hacka-net
+    environment:
+      POSTGRES_DB: ${DB_NAME_HACKA}
+      POSTGRES_USER: ${DB_USER_HACKA}
+      POSTGRES_PASSWORD: ${DB_PASSWORD_HACKA}
+    ports:
+      - "5434:5432"
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data # IMPORTANTE: para não perder seus dados ao desligar o docker
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER_HACKA} -d ${DB_NAME_HACKA}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+  # Backend Java
+  backend:
+    build: ./HackathonONE-Back-End
+    container_name: java_app
+    networks:	
+      - hacka-net	
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+         condition: service_healthy
+    environment:
+      # No Docker local, usamos o nome do serviço 'db'
+      - SPRING_PROFILES_ACTIVE=prod
+
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/${DB_NAME_HACKA}
+      - SPRING_DATASOURCE_USERNAME=${DB_USER_HACKA}
+      - SPRING_DATASOURCE_PASSWORD=${DB_PASSWORD_HACKA}
+
+  # Microsserviço Python
+  python_service:
+    build: ./HackathonONE-Python
+    container_name: python_app
+    networks:
+      - hacka-net	
+    ports:
+      - "5000:5000"
+    # Se o seu Python NÃO usa o banco de dados, você pode remover o depends_on e as envs de banco dele
+
+  # Frontend
+  frontend:
+    build: ./HackathonONE-Front-End
+    container_name: web_front
+    networks:
+      - hacka-net	
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+networks:
+  hacka-net:
+   driver: bridge
